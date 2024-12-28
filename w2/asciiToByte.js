@@ -15,8 +15,17 @@
 // let j = stringToByte(str);
 // console.log(j);
   
-let str = "hello";
+let str = "Hello";
 
 const j = new TextEncoder().encode(str);
 
-console.log(j.toString(16).padStart(2,'0'));
+console.log(j.toString(16));
+
+
+
+
+
+
+//      OR
+
+// console.log(str.charCodeAt(0));
